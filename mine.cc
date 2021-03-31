@@ -48,7 +48,7 @@ prev_hash){
 		string attempt = sha256(current);
 
 		// Check to see if current attempt was successful
-		if(check_lead_zeroes(attempt) == 1){
+		if(check_lead_zeroes(attempt)){
 			cout << "Nonce Found: " << i << endl;
 		}
 	}

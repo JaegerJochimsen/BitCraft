@@ -31,7 +31,7 @@ unsigned int check_lead_zeroes(string s){
 			(s[4] =='0') && 
 			(s[5] =='0') && 
 			(s[6] =='0') && 
-			(s[7] = '0'));
+			(s[7] =='0'));
  }
 
 void mine(unsigned long long int block_num, string trans, string
